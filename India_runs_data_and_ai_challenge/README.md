@@ -1,5 +1,5 @@
 # Redrob Hackathon: Intelligent Candidate Discovery & Ranking
-### 🏆 Team 10 Gemini — Submission Repository
+### 🏆 Team 10 - Submission Repository
 
 This repository contains the end-to-end ranking and safety pipeline designed to rank the top 100 candidates for the **Senior AI Engineer — Founding Team** role at Redrob AI. The system is designed to be ultra-fast, offline-capable, and completely resilient to synthetic honeypot profiles in the candidate pool.
 
