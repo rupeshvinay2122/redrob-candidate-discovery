@@ -1,0 +1,3 @@
+# Requirements for Redrob candidate ranking pipeline
+# This pipeline relies entirely on the Python Standard Library (json, gzip, argparse, os, re, datetime)
+# No external third-party dependencies are required to run the pipeline.

@@ -1,0 +1,15 @@
+# Redrob Hackathon Submission Metadata
+team_name: "Team 10 Gemini"
+primary_contact_name: "Rupesh"
+primary_contact_email: "rupeshvinay2122@gmail.com"
+primary_contact_phone: "+91-9876543210"  # Verify and update to your real contact phone if different
+github_repository_url: "https://github.com/rupeshvinay2122/redrob-candidate-discovery"  # Verify and update to your remote repository URL
+sandbox_demo_link: "https://github.com/rupeshvinay2122/redrob-candidate-discovery"  # Update to HuggingFace space, Streamlit Cloud, or repository link
+ai_tools_declared:
+  - Gemini
+  - Cursor
+compute_environment_summary: "Windows PC, AMD Ryzen 7, 16GB RAM, Python 3.12"
+team_members:
+  - name: "Rupesh"
+    email: "rupesh@example.com"
+methodology_summary: "Filtered out synthetic honeypots and scrambled profiles using structured pattern matching (mismatched titles/descriptions, salary min > max, zero-duration expert skills, education/experience inconsistencies). Scored valid candidates using a multi-factor weighting function optimizing for 5-9 YOE, core retrieval/ranking skills (embeddings, vector search, Pinecone, FAISS, Weaviate), platform activity, and notice periods. Deterministic tie-breaking applied for unique ranking."

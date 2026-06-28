@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Big candidate dataset files (Do not push to GitHub)
+*candidates.jsonl
+*candidates.jsonl.gz
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and tool files
+.vscode/
+.idea/
+.gemini/
+.agents/
+walkthrough.md
+implementation_plan.md
+task.md
