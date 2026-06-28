@@ -1,19 +1,14 @@
 # Redrob Hackathon: Intelligent Candidate Discovery & Ranking Challenge
-## Team 10 Gemini — Submission Summary
+## Team 10 — Submission Summary
 
 This document details the refined architecture, filters, scoring models, and validation results implemented to rank the top 100 candidates for the **Senior AI Engineer — Founding Team** role at Redrob AI.
 
 ---
 
 ## 1. Project Directory Structure
-All relevant files are located under:
-`c:\Users\rupes\OneDrive\Desktop\team 10 gemini\India_runs_data_and_ai_challenge`
-
 * **`rank.py`** — Main candidate discovery and ranking script (Python 3.12).
 * **`team_10.csv`** — The finalized ranked output of the top 100 candidates.
-* **`submission_metadata.yaml`** — Team metadata, compute environment details, and methodology summary.
 * **`SUMMARY.md`** — This summary document.
-
 ---
 
 ## 2. Methodology & Algorithm Design
@@ -54,7 +49,7 @@ For each candidate, the script seeds a random generator using the candidate's ID
 
 We audited and compared our final `team_10.csv` against the GPT output and the older run:
 
-| Metric | Gemini Refined Output (`team_10.csv`) | GPT Output (`team_10_gpt.csv`) | Main `team_10.csv` (Old) |
+| Metric |Refined Output (`team_10.csv`) | GPT Output (`team_10_gpt.csv`) | Main `team_10.csv` (Old) |
 | :--- | :---: | :---: | :---: |
 | **Monotonic Score & Format Valid** | **SUCCESS** | **SUCCESS** | **SUCCESS** |
 | **Honeypot Candidates** | **0 (0%)** | **0 (0%)** | **0 (0%)** |
